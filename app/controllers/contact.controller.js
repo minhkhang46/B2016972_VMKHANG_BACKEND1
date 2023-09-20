@@ -1,4 +1,4 @@
-exports.creat= (req, res)=>{
+exports.create= (req, res)=>{
 	res.send({message: "create handler"});
 };
 

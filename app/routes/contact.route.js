@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.route("/")
 	.get(contacts.findAll)
-	.post(contacts.creat)
+	.post(contacts.create)
 	.delete(contacts.deleteAll);
 
 router.route("/favorite")
